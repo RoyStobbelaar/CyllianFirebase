@@ -1,0 +1,30 @@
+@import '../main.scss';
+
+.character-container {
+  // border: 1px solid $borderColor;
+  background-color: $color2;
+  min-height: 300px;
+  padding: 10px;
+}
+
+.character-portrait {
+  width: 140px;
+  height: 140px;
+  float: right;
+}
+
+.character-race {
+  border-bottom: 1px solid $borderColor;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.character-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.character-gender {
+  margin-bottom: 15px;
+
+}

@@ -1,0 +1,42 @@
+@import '../main.scss';
+
+.container {
+  height: 100vh;
+  background-color: $color1;
+  min-width: 200px;
+}
+
+.content {
+  background-color: $color4;
+  margin-top: -15px;
+}
+
+.main-content {
+  background-color: $color3;
+  margin-top: -15px;
+  width: 100%;
+}
+
+li {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+
+  menu-item {
+    /deep/ {
+      .menu-item {
+        border-bottom: 1px solid $borderColor;
+      }
+    }
+  }
+  menu-item:last-of-type {
+    /deep/ {
+      .menu-item {
+        border-bottom: none;
+      }
+    }
+  }
+}

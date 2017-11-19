@@ -1,0 +1,49 @@
+//Define colors
+//Colors dark to light
+$color1: #111111;
+$color2: #181818;
+$color3: #242424;
+$color4: #1c2652;
+$color5: #24326e;
+$color6: #2d3f8a;
+$color7: #354ba6;
+
+$primaryLight: #0066BB;
+$secondaryLight: #004499;
+$primaryDark: #001133;
+$secondaryDark: #003355;
+
+$borderColor: $color7;
+
+$bgColor: #002032;
+$white: #EEEEEE;
+$black: #000000;
+
+$red: #EE0000;
+$blue: #0000EE;
+$green: #00EE00;
+$dark: #002255;
+
+//General
+.main-container {
+  background-color: $color5;
+  color: $white;
+  margin-right: 10px;
+}
+
+a {
+  color: $white;
+}
+
+h2 {
+  color: $white
+}
+
+.spacing {
+  padding: 5px;
+}
+
+body {
+  background-color: #111111;
+  color: white;
+}
