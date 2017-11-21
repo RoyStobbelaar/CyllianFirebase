@@ -1,10 +1,26 @@
-<div class="index-container spacing grid-x">
+<div class="index-container spacing grid-x"  *ngIf="!isLoggedIn()" >
   <div class="cell medium-8">
     <h2>
-      Welcome!
+      Welcome! Login to access the menu :-)
     </h2>
     <p>
-      -insert info-
+      <button class="button auth-button"(click)="loginWithGoogle()">Login with Google</button>
+    </p>
+  </div>
+</div>
+
+
+<div class="index-container spacing grid-x"  *ngIf="isLoggedIn()" >
+  <div class="cell medium-8">
+    <h2>
+      Welcome! {{user.displayName}}
+    </h2>
+    <p>
+      Thank you for signing in using Google! Enjoy your stay :-)
+    </p>
+
+    <p>
+      <button class="button auth-button"(click)="signOut()">Sign out</button>
     </p>
   </div>
 </div>

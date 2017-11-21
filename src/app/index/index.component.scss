@@ -8,3 +8,15 @@
     margin: 5px;
   width: 100vw;
 }
+
+.auth-button {
+  padding: 20px;
+  background-color: $color4;
+  transition: all .5s;
+  margin-left: 15px;
+}
+.auth-button:hover {
+  background-color: $color7;
+  transform: scale(1.1);
+  transition: all .5s;
+}

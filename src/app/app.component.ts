@@ -14,20 +14,14 @@ export class AppComponent implements OnInit{
   title = 'app';
 
   user = null;
-  topics: Observable<any>;  
+  topics: Observable<any>;
 
   constructor(
     private auth: AuthService,
   public db: AngularFireDatabase) { }
 
   ngOnInit() {
-    this.auth.getAuthState().subscribe(
-      (user) => this.user = user);
-      this.topics = this.db.list('/Characters').valueChanges();  
-      
-      this.topics.subscribe(res => {
-        console.log(res);
-      })
+
   }
 
   loginWithGoogle() {
