@@ -4,6 +4,53 @@
   height: 100vh;
   background-color: $color1;
   min-width: 200px;
+  //border-left: 1px solid red;
+}
+
+.container-animation{
+  height: 100vh;
+  width: 1px;
+  //animation-duration: 0.9s;
+  //animation-name: menu-bar-animation;
+  //animation-iteration-count: infinite;
+  background-image: linear-gradient(to bottom, $borderColor, #111111)
+}
+
+@keyframes menu-bar-animation {
+  0% {
+    background-image: linear-gradient(to bottom, $borderColor, #111111, #111111, #111111, #111111, #111111, #111111, #111111, #111111, #111111, #111111)
+  }
+  10% {
+    background-image: linear-gradient(to bottom, #111111, $borderColor, #111111, #111111, #111111, #111111, #111111, #111111, #111111, #111111, #111111)
+  }
+  20% {
+    background-image: linear-gradient(to bottom, #111111, #111111, $borderColor, #111111, #111111, #111111, #111111, #111111, #111111, #111111, #111111)
+  }
+  30% {
+    background-image: linear-gradient(to bottom, #111111, #111111, #111111, $borderColor, #111111, #111111, #111111, #111111, #111111, #111111, #111111)
+  }
+  40% {
+    background-image: linear-gradient(to bottom, #111111, #111111, #111111, #111111, $borderColor, #111111, #111111, #111111, #111111, #111111, #111111)
+  }
+  50% {
+    background-image: linear-gradient(to bottom, #111111, #111111, #111111, #111111, #111111, $borderColor, #111111, #111111, #111111, #111111, #111111)
+  }
+
+  60% {
+    background-image: linear-gradient(to bottom,#111111, #111111, #111111, #111111, #111111, #111111, $borderColor, #111111, #111111, #111111, #111111)
+  }
+  70% {
+    background-image: linear-gradient(to bottom,#111111, #111111, #111111, #111111, #111111, #111111, #111111, $borderColor, #111111, #111111, #111111)
+  }
+  80% {
+    background-image: linear-gradient(to bottom,#111111, #111111, #111111, #111111, #111111, #111111, #111111, #111111, $borderColor, #111111, #111111)
+  }
+  90% {
+    background-image: linear-gradient(to bottom,#111111, #111111, #111111, #111111, #111111, #111111, #111111, #111111, #111111, $borderColor, #111111)
+  }
+  100% {
+    background-image: linear-gradient(to bottom,#111111, #111111, #111111, #111111, #111111, #111111, #111111, #111111, #111111, #111111, $borderColor)
+  }
 }
 
 .content {

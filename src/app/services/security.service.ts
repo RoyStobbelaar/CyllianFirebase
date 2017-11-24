@@ -1,4 +1,4 @@
-import {Component, Injectable} from "@angular/core";
+import {Injectable} from "@angular/core";
 
 @Injectable()
 export class SecurityService {
@@ -11,7 +11,7 @@ export class SecurityService {
   }
 
   public setLoggedIn(user: any) {
-    if(user) {
+    if (user) {
       this._isLoggedIn = true;
     }
   }
@@ -20,12 +20,12 @@ export class SecurityService {
     return this._isLoggedIn;
   }
 
-  public setUser(user:any) {
+  public setUser(user: any) {
     this._user = user;
   }
 
   public getUser(): any {
-    if(this._user) {
+    if (this._user) {
       return this._user;
     }
   }

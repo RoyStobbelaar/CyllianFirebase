@@ -1,8 +1,7 @@
-import { inject } from '@angular/core/testing';
-import { AngularFireAuth } from 'angularfire2/auth';
+import {AngularFireAuth} from 'angularfire2/auth';
 import * as firebase from 'firebase/app';
-import { Observable } from 'rxjs/Observable';
-import { Injectable } from '@angular/core';
+import {Observable} from 'rxjs/Observable';
+import {Injectable} from '@angular/core';
 
 @Injectable()
 export class AuthService {

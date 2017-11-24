@@ -8,7 +8,7 @@ import {CharacterService} from "../services/character.service";
   template: `    
     <div class="container" *ngIf="!loading">
       <div class="grid-x">
-        <div class="cell medium-4 spacing"  *ngFor="let character of characters">
+        <div class="cell large-4 medium-12 spacing"  *ngFor="let character of characters">
           <character-view [character]="character"></character-view>
         </div>
       </div>
@@ -32,17 +32,9 @@ export class CharacterContainerComponent implements OnInit {
 
     this.loading = true;
 
-    this.db.list('/Characters').valueChanges().subscribe(res => {
-      this.characters = <Character[]>res;
-      console.log(this.characters);
+    this._characterService.getCharacters().subscribe(result => {
+      this.characters = <Character[]>result;
       this.loading = false;
-    })
-
-    // this._characterService.getCharacters().subscribe(result => {
-    //   this.characters = result;
-    //   this.loading = false;
-    // }, err => {
-    //   this.loading = false;
-    // })
+    });
   }
 }

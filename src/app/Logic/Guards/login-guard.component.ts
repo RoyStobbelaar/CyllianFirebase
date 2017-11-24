@@ -16,7 +16,6 @@ export class LoginGuardComponent implements CanActivate{
       return true;
     } else {
       this._router.navigate(['/']);
-      //return false;
     }
   }
 

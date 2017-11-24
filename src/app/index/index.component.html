@@ -13,7 +13,7 @@
 <div class="index-container spacing grid-x"  *ngIf="isLoggedIn()" >
   <div class="cell medium-8">
     <h2>
-      Welcome! {{user.displayName}}
+      Welcome!<span *ngIf="user"> {{user.displayName}} </span>
     </h2>
     <p>
       Thank you for signing in using Google! Enjoy your stay :-)
