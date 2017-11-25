@@ -20,6 +20,7 @@ import {AuthenticUserDirective} from "./Logic/Directives/authenticUser.directive
 import {MenuService} from "./services/menu.service";
 import {LoginComponent} from "./login/login.component";
 import {WorldComponent} from "./world/world.component";
+import {WorldItemComponent} from "./world/world-item/world-item.component";
 import {Container} from "./ui-components/content-container/content-container.component";
 
 @NgModule({
@@ -35,6 +36,7 @@ import {Container} from "./ui-components/content-container/content-container.com
     AuthenticUserDirective,
     LoginComponent,
     WorldComponent,
+    WorldItemComponent
   ],
   imports: [
     BrowserModule,
