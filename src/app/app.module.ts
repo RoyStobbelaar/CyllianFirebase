@@ -6,7 +6,6 @@ import {CharacterViewComponent} from './character-view/character-view.component'
 import {MainMenuItemComponent} from './main-menu/menu-item/main-menu-item.component';
 import {MainMenuComponent} from './main-menu/main-menu.component';
 import {HeaderComponent} from './header/header-component';
-import {ContentContainerComponent} from './content-container/content-container.component';
 import {LayoutComponent} from './layout/layout.component';
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
@@ -18,18 +17,24 @@ import {AuthService} from './shared/auth.service';
 import {SecurityService} from "./services/security.service";
 import {LoginGuardComponent} from "./Logic/Guards/login-guard.component";
 import {AuthenticUserDirective} from "./Logic/Directives/authenticUser.directive";
+import {MenuService} from "./services/menu.service";
+import {LoginComponent} from "./login/login.component";
+import {WorldComponent} from "./world/world.component";
+import {Container} from "./ui-components/content-container/content-container.component";
 
 @NgModule({
   declarations: [
+    Container,
     LayoutComponent,
-    ContentContainerComponent,
     HeaderComponent,
     MainMenuComponent,
     MainMenuItemComponent,
     CharacterViewComponent,
     CharacterContainerComponent,
     IndexComponent,
-    AuthenticUserDirective
+    AuthenticUserDirective,
+    LoginComponent,
+    WorldComponent,
   ],
   imports: [
     BrowserModule,
@@ -45,7 +50,8 @@ import {AuthenticUserDirective} from "./Logic/Directives/authenticUser.directive
     AuthService,
     CharacterService,
     SecurityService,
-    LoginGuardComponent
+    LoginGuardComponent,
+    MenuService
   ],
   bootstrap: [
     LayoutComponent

@@ -3,13 +3,12 @@
 .container {
   height: 100vh;
   background-color: $color1;
-  min-width: 200px;
-  //border-left: 1px solid red;
 }
 
 .container-animation{
   height: 100vh;
   width: 1px;
+  float: left;
   //animation-duration: 0.9s;
   //animation-name: menu-bar-animation;
   //animation-iteration-count: infinite;
@@ -58,11 +57,6 @@
   margin-top: -15px;
 }
 
-.main-content {
-  background-color: $color3;
-  margin-top: -15px;
-  width: 100%;
-}
 
 li {
   text-decoration: none;

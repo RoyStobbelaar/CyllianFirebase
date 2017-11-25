@@ -1,29 +1,25 @@
-<div style="display: inline-flex">
+<div class="container-animation" style="margin-left: 1px"></div>
 
-  <div class="container-animation"></div>
-  <div class="container">
-    <header></header>
-    <!-- Do some menu items -->
-    <ul style="margin-top: 100px;" authenticatedUser>
-      <menu-item (click)="navigate('')">
-        Index
-      </menu-item>
-      <menu-item (click)="navigate('characters')">
-        Characters
-      </menu-item>
-      <menu-item (click)="navigate('items')">
-        Items
-      </menu-item>
-      <menu-item (click)="navigate('quests')">
-        Quests
-      </menu-item>
-      <menu-item (click)="navigate('game')">
-        Game
-      </menu-item>
-    </ul>
-  </div>
+<div class="grid-x">
+    <div class="cell medium-3" style="margin-top: -15px">
 
-  <div class="main-content" #content>
-    <ng-content></ng-content>
+      <div class="container">
+        <header></header>
+        <!-- Do some menu items -->
+        <ul style="margin-top: 100px" authenticatedUser *ngIf="menuItems">
+
+          <menu-item *ngFor="let item of menuItems" (click)="navigate(item)">{{item}}</menu-item>
+
+        </ul>
+      </div>
+    </div>
+
+    <div class="cell medium-9">
+      <div class="container-animation"></div>
+
+      <div class="main-content" #content>
+        <ng-content></ng-content>
+      </div>
+
+    </div>
   </div>
-</div>

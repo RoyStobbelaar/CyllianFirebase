@@ -16,7 +16,7 @@ import {Character} from "../Logic/Models/character";
         </div>
         
         <div class="character-portrait">
-          <img [src]=character.portrait />
+          <img [src]=character.portrait alt="'none'"/>
         </div>
         
         <div class="character-gender"> {{ character.gender }}</div>

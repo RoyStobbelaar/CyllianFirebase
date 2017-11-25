@@ -6,16 +6,13 @@ import {CharacterService} from "../services/character.service";
 @Component({
   selector: 'character-container',
   template: `    
-    <div class="container" *ngIf="!loading">
+    <container [loading]="loading">
       <div class="grid-x">
-        <div class="cell large-4 medium-12 spacing"  *ngFor="let character of characters">
+        <div class="cell large-4 medium-12"  *ngFor="let character of characters">
           <character-view [character]="character"></character-view>
         </div>
       </div>
-    </div>
-    <div *ngIf="loading" style="width: 100vw">
-    <h2> Loading... </h2>
-    </div>
+    </container>
   `,
   styleUrls: ['./character-container.component.scss']
 })
@@ -34,6 +31,7 @@ export class CharacterContainerComponent implements OnInit {
 
     this._characterService.getCharacters().subscribe(result => {
       this.characters = <Character[]>result;
+      console.log(this.characters);
       this.loading = false;
     });
   }
