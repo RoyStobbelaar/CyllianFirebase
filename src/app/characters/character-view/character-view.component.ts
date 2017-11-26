@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Character} from "../Logic/Models/character";
+import {Character} from "../../Logic/Models/character";
 
 @Component({
   selector: 'character-view',

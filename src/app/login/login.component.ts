@@ -7,6 +7,7 @@ import {Router} from "@angular/router";
   selector: 'login',
   template: `
 
+  <container>
     <div class="index-container spacing grid-x"  *ngIf="!isLoggedIn()" >
       <div class="cell medium-8">
         <h2>
@@ -33,6 +34,7 @@ import {Router} from "@angular/router";
         </p>
       </div>
     </div>
+    </container>
 
   `,
   styleUrls: ['./login.component.scss']
@@ -65,7 +67,9 @@ export class LoginComponent {
       this.user = user;
       this._security.setLoggedIn(user);
       this._security.setUser(user);
-      this._router.navigateByUrl('Index');
+      this._router.navigateByUrl('').then(() => {
+        this._router.navigateByUrl('Index');        
+      });
     });
   }
 

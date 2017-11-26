@@ -1,0 +1,144 @@
+[debug] [2017-11-19T19:13:21.327Z] ----------------------------------------------------------------------
+[debug] [2017-11-19T19:13:21.329Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Roy\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-11-19T19:13:21.329Z] CLI Version:   3.15.2
+[debug] [2017-11-19T19:13:21.329Z] Platform:      win32
+[debug] [2017-11-19T19:13:21.329Z] Node Version:  v9.0.0
+[debug] [2017-11-19T19:13:21.330Z] Time:          Sun Nov 19 2017 20:13:21 GMT+0100 (W. Europe Standard Time)
+[debug] [2017-11-19T19:13:21.330Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-19T19:13:21.340Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-19T19:13:21.340Z] > authorizing via signed-in user
+[debug] [2017-11-19T19:13:21.342Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/cyllianfirebase  
+ Sun Nov 19 2017 20:13:21 GMT+0100 (W. Europe Standard Time)
+[debug] [2017-11-19T19:13:22.084Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-19T19:13:22.085Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/cyllianfirebase/tokens  
+ Sun Nov 19 2017 20:13:22 GMT+0100 (W. Europe Standard Time)
+[debug] [2017-11-19T19:13:22.692Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\Projects\Web\CyllianFirebase'...
+[info] 
+[debug] [2017-11-19T19:13:22.694Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/cyllianfirebase  
+ Sun Nov 19 2017 20:13:22 GMT+0100 (W. Europe Standard Time)
+[debug] [2017-11-19T19:13:23.453Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-19T19:13:23.453Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/214910605931/clients/_:getWebAppConfig  
+ Sun Nov 19 2017 20:13:23 GMT+0100 (W. Europe Standard Time)
+[debug] [2017-11-19T19:13:24.319Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2017-11-19T19:20:17.454Z] ----------------------------------------------------------------------
+[debug] [2017-11-19T19:20:17.455Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Roy\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-11-19T19:20:17.455Z] CLI Version:   3.15.2
+[debug] [2017-11-19T19:20:17.455Z] Platform:      win32
+[debug] [2017-11-19T19:20:17.455Z] Node Version:  v9.0.0
+[debug] [2017-11-19T19:20:17.456Z] Time:          Sun Nov 19 2017 20:20:17 GMT+0100 (W. Europe Standard Time)
+[debug] [2017-11-19T19:20:17.456Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-19T19:20:17.468Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-19T19:20:17.468Z] > authorizing via signed-in user
+[debug] [2017-11-19T19:20:17.470Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/cyllianfirebase  
+ Sun Nov 19 2017 20:20:17 GMT+0100 (W. Europe Standard Time)
+[debug] [2017-11-19T19:20:18.227Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-19T19:20:18.227Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/cyllianfirebase/tokens  
+ Sun Nov 19 2017 20:20:18 GMT+0100 (W. Europe Standard Time)
+[debug] [2017-11-19T19:20:18.908Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\Projects\Web\CyllianFirebase'...
+[info] 
+[debug] [2017-11-19T19:20:18.911Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/cyllianfirebase  
+ Sun Nov 19 2017 20:20:18 GMT+0100 (W. Europe Standard Time)
+[debug] [2017-11-19T19:20:19.621Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-19T19:20:19.622Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/214910605931/clients/_:getWebAppConfig  
+ Sun Nov 19 2017 20:20:19 GMT+0100 (W. Europe Standard Time)
+[debug] [2017-11-19T19:20:20.158Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: app
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2017-11-19T19:20:46.764Z] ----------------------------------------------------------------------
+[debug] [2017-11-19T19:20:46.766Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Roy\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-11-19T19:20:46.766Z] CLI Version:   3.15.2
+[debug] [2017-11-19T19:20:46.766Z] Platform:      win32
+[debug] [2017-11-19T19:20:46.766Z] Node Version:  v9.0.0
+[debug] [2017-11-19T19:20:46.766Z] Time:          Sun Nov 19 2017 20:20:46 GMT+0100 (W. Europe Standard Time)
+[debug] [2017-11-19T19:20:46.766Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-19T19:20:46.774Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-19T19:20:46.774Z] > authorizing via signed-in user
+[debug] [2017-11-19T19:20:46.776Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/cyllianfirebase  
+ Sun Nov 19 2017 20:20:46 GMT+0100 (W. Europe Standard Time)
+[debug] [2017-11-19T19:20:47.498Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-19T19:20:47.499Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/cyllianfirebase/tokens  
+ Sun Nov 19 2017 20:20:47 GMT+0100 (W. Europe Standard Time)
+[debug] [2017-11-19T19:20:48.162Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\Projects\Web\CyllianFirebase'...
+[info] 
+[debug] [2017-11-19T19:20:48.164Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/cyllianfirebase  
+ Sun Nov 19 2017 20:20:48 GMT+0100 (W. Europe Standard Time)
+[debug] [2017-11-19T19:20:48.900Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-19T19:20:48.901Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/214910605931/clients/_:getWebAppConfig  
+ Sun Nov 19 2017 20:20:48 GMT+0100 (W. Europe Standard Time)
+[debug] [2017-11-19T19:20:49.452Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: src
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2017-11-19T19:22:50.541Z] ----------------------------------------------------------------------
+[debug] [2017-11-19T19:22:50.543Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Roy\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-11-19T19:22:50.543Z] CLI Version:   3.15.2
+[debug] [2017-11-19T19:22:50.543Z] Platform:      win32
+[debug] [2017-11-19T19:22:50.543Z] Node Version:  v9.0.0
+[debug] [2017-11-19T19:22:50.543Z] Time:          Sun Nov 19 2017 20:22:50 GMT+0100 (W. Europe Standard Time)
+[debug] [2017-11-19T19:22:50.543Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-19T19:22:50.552Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-19T19:22:50.552Z] > authorizing via signed-in user
+[debug] [2017-11-19T19:22:50.553Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/cyllianfirebase  
+ Sun Nov 19 2017 20:22:50 GMT+0100 (W. Europe Standard Time)
+[debug] [2017-11-19T19:22:51.408Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-19T19:22:51.409Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/cyllianfirebase/tokens  
+ Sun Nov 19 2017 20:22:51 GMT+0100 (W. Europe Standard Time)
+[debug] [2017-11-19T19:22:52.268Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\Projects\Web\CyllianFirebase'...
+[info] 
+[debug] [2017-11-19T19:22:52.271Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/cyllianfirebase  
+ Sun Nov 19 2017 20:22:52 GMT+0100 (W. Europe Standard Time)
+[debug] [2017-11-19T19:22:53.018Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-19T19:22:53.018Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/214910605931/clients/_:getWebAppConfig  
+ Sun Nov 19 2017 20:22:53 GMT+0100 (W. Europe Standard Time)
+[debug] [2017-11-19T19:22:53.567Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: src
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
+[debug] [2017-11-19T19:24:24.745Z] ----------------------------------------------------------------------
+[debug] [2017-11-19T19:24:24.746Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Roy\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-11-19T19:24:24.746Z] CLI Version:   3.15.2
+[debug] [2017-11-19T19:24:24.746Z] Platform:      win32
+[debug] [2017-11-19T19:24:24.746Z] Node Version:  v9.0.0
+[debug] [2017-11-19T19:24:24.747Z] Time:          Sun Nov 19 2017 20:24:24 GMT+0100 (W. Europe Standard Time)
+[debug] [2017-11-19T19:24:24.747Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-19T19:24:24.755Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-19T19:24:24.755Z] > authorizing via signed-in user
+[debug] [2017-11-19T19:24:24.756Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/cyllianfirebase  
+ Sun Nov 19 2017 20:24:24 GMT+0100 (W. Europe Standard Time)
+[debug] [2017-11-19T19:24:25.495Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-19T19:24:25.496Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/cyllianfirebase/tokens  
+ Sun Nov 19 2017 20:24:25 GMT+0100 (W. Europe Standard Time)
+[debug] [2017-11-19T19:24:26.177Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\Projects\Web\CyllianFirebase'...
+[info] 
+[debug] [2017-11-19T19:24:26.179Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/cyllianfirebase  
+ Sun Nov 19 2017 20:24:26 GMT+0100 (W. Europe Standard Time)
+[debug] [2017-11-19T19:24:26.901Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-19T19:24:26.902Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/214910605931/clients/_:getWebAppConfig  
+ Sun Nov 19 2017 20:24:26 GMT+0100 (W. Europe Standard Time)
+[debug] [2017-11-19T19:24:27.393Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: src
+[info] +  hosting: Local server: http://localhost:5000
+

@@ -1,5 +1,4 @@
-
-
+import { WorldItem } from './../Logic/Models/world-item';
 import {Injectable} from "@angular/core";
 import {AngularFireDatabase} from "angularfire2/database";
 import {Observable} from "rxjs/Observable";
@@ -12,7 +11,7 @@ export class WorldService {
 
   }
 
-  public getWorldItems(): Observable<WorldItem[]> {
+  public getWorldItems(): Observable<any[]> {
     return this.db.list('/World').valueChanges();
   }
 

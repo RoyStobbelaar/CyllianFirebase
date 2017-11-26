@@ -1,7 +1,7 @@
 import { AngularFireDatabase } from 'angularfire2/database';
 import {Component, OnInit} from '@angular/core';
-import {Character} from "../Logic/Models/character";
-import {CharacterService} from "../services/character.service";
+import {Character} from "../../Logic/Models/character";
+import {CharacterService} from "../../services/character.service";
 
 @Component({
   selector: 'character-container',

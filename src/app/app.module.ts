@@ -1,11 +1,11 @@
 import {RoutingModule} from './routing.module';
 import {CharacterService} from './services/character.service';
 import {IndexComponent} from './index/index.component';
-import {CharacterContainerComponent} from './character-container/character-container.component';
-import {CharacterViewComponent} from './character-view/character-view.component';
-import {MainMenuItemComponent} from './main-menu/menu-item/main-menu-item.component';
-import {MainMenuComponent} from './main-menu/main-menu.component';
-import {HeaderComponent} from './header/header-component';
+import {CharacterContainerComponent} from './characters/character-container/character-container.component';
+import {CharacterViewComponent} from './characters/character-view/character-view.component';
+import {MainMenuItemComponent} from './layout/main-menu/menu-item/main-menu-item.component';
+import {MainMenuComponent} from './layout/main-menu/main-menu.component';
+import {HeaderComponent} from './layout/header/header-component';
 import {LayoutComponent} from './layout/layout.component';
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
@@ -22,6 +22,7 @@ import {LoginComponent} from "./login/login.component";
 import {WorldComponent} from "./world/world.component";
 import {WorldItemComponent} from "./world/world-item/world-item.component";
 import {Container} from "./ui-components/content-container/content-container.component";
+import {GameComponent} from './game/game.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import {Container} from "./ui-components/content-container/content-container.com
     AuthenticUserDirective,
     LoginComponent,
     WorldComponent,
-    WorldItemComponent
+    WorldItemComponent,
+    GameComponent
   ],
   imports: [
     BrowserModule,

@@ -28,12 +28,13 @@ export class IndexComponent implements OnInit {
   }
 
   public tryToSignIn() {
+    if(this.user) return;
+    
     this.auth.getAuthState().subscribe((user) =>
     {
       this.user = user;
       this._security.setLoggedIn(this.user);
       this._security.setUser(this.user);
-      console.log(this.user);
     });
   }
 
