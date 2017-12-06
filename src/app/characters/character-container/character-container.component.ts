@@ -6,13 +6,11 @@ import {CharacterService} from "../../services/character.service";
 @Component({
   selector: 'character-container',
   template: `    
-    <container [loading]="loading">
       <div class="grid-x">
         <div class="cell large-4 medium-12"  *ngFor="let character of characters">
           <character-view [character]="character"></character-view>
         </div>
       </div>
-    </container>
   `,
   styleUrls: ['./character-container.component.scss']
 })

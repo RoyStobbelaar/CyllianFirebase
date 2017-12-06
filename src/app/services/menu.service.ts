@@ -12,4 +12,16 @@ export class MenuService {
     ];
     return Observable.of(list);
   }
+
+  public openMenu() {
+    this.showMenu = true;
+  }
+
+  public closeMenu() {
+    this.showMenu = false;
+  }
+
+  public getMenuState(): boolean {
+    return this.showMenu;
+  }
 }

@@ -5,9 +5,39 @@
   background-color: $color4;
   transition: all .5s;
   margin-left: 15px;
+  border-radius: 2px;
 }
 .auth-button:hover {
   background-color: $color7;
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: all .5s;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: $color1;
+}
+
+.centered {
+  width: 400px;
+  height: 200px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  background-color: #eeeeee;
+  color: $color1;
+  border-radius: 4px;
+  padding: 16px;
+  border: 1px solid $color5;
+}
+
+.message {
+  border-bottom: 1px solid $color3;
+  width: 100%;
+  font-size: 20px;
+  // font-weight: bold;
 }

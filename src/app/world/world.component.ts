@@ -4,13 +4,11 @@ import {Component, OnInit} from "@angular/core";
   selector: 'world',
   template: `
     
-    <container [loading]="loading">
       <div class="grid">
         <div class="cell medium-12">
           World building here
         </div>
       </div>
-    </container>
     
   `,
   styleUrls: ['./world.component.scss']

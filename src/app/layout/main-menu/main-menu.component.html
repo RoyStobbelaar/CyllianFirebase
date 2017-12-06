@@ -1,25 +1,12 @@
 <div class="container-animation" style="margin-left: 1px"></div>
-
-<div class="grid-x">
-    <div class="cell medium-2" style="margin-top: -15px">
-
-      <div class="container">
-        <header></header>
+      <div class="menu" (mouseenter)="enter()" (mouseleave)="leave()" #menu>
+    
         <!-- Do some menu items -->
-        <ul style="margin-top: 100px" authenticatedUser *ngIf="menuItems">
-
+        <ul authenticatedUser style='margin-top:120px' *ngIf="menuItems">
           <menu-item *ngFor="let item of menuItems" (click)="navigate(item)">{{item}}</menu-item>
-
         </ul>
       </div>
-    </div>
 
-    <div class="cell medium-10">
-      <div class="container-animation"></div>
-
-      <div class="main-content" #content>
-        <ng-content></ng-content>
-      </div>
-
-    </div>
+  <div class="content" #content>
+    <ng-content></ng-content>
   </div>

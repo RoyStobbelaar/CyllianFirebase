@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class LayoutComponent {
   title = 'layout-Component';
+
+  constructor(){
+    console.log('load layout');
+  }
 }
