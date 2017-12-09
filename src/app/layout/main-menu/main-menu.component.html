@@ -1,9 +1,35 @@
 <div class="container-animation" style="margin-left: 1px"></div>
       <div class="menu" (mouseenter)="enter()" (mouseleave)="leave()" #menu>
-    
+
         <!-- Do some menu items -->
-        <ul authenticatedUser style='margin-top:120px' *ngIf="menuItems">
-          <menu-item *ngFor="let item of menuItems" (click)="navigate(item)">{{item}}</menu-item>
+        <ul style='margin-top: 120px'>
+          <li class="menu-item" (click)="navigate('Index')">
+            <a>
+              <i class="fi-alert"></i>
+              <span *ngIf="menuOpen">Index</span>
+            </a>
+          </li>
+
+          <li class="menu-item" (click)="navigate('World')">
+            <a>
+              <i class="fi-shield"></i>
+              <span *ngIf="menuOpen">World</span>
+            </a>
+          </li>
+
+          <li class="menu-item" (click)="navigate('Characters')">
+            <a>
+              <i class="fi-die-two"></i>
+              <span *ngIf="menuOpen">Characters</span>
+            </a>
+          </li>
+
+          <li class="menu-item" (click)="navigate('Game')">
+            <a>
+              <i class="fi-die-six"></i>
+              <span *ngIf="menuOpen">Game</span>
+            </a>
+          </li>
         </ul>
       </div>
 
