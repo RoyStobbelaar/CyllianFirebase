@@ -1,1 +1,12 @@
 @import '../../main.scss';
+
+:host {
+
+    .character-view {
+        margin-right: 16px;
+    }
+    .character-view:last-of-type{
+        margin-right: 0;
+    }
+
+}

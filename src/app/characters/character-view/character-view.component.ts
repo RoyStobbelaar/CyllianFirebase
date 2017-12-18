@@ -6,24 +6,20 @@ import {Character} from "../../Logic/Models/character";
   template: `
     
     <div class="character-container">
+    <div class="character-header">
       <div class="character-title">
         {{ character.name }}
       </div>
-      
+      <div class="character-race">
+      {{ character.race}} {{ character.subclass}}
+    </div>
+    </div>
       <div class="character-data">
-        <div class="character-race">
-          {{ character.race}} {{ character.subclass}}
-        </div>
-        
         <div class="character-portrait">
           <img [src]=character.portrait alt="'none'"/>
         </div>
-        
         <div class="character-gender"> {{ character.gender }}</div>
-        
-
         <div> {{ character.description }}</div>
-        
       </div>
     </div>
   `,

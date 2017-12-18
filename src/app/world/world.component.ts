@@ -1,15 +1,14 @@
-import {Component, OnInit} from "@angular/core";
+import {Component, OnInit} from '@angular/core';
 
 @Component({
+  // tslint:disable-next-line:component-selector
   selector: 'world',
   template: `
-    
       <div class="grid">
         <div class="cell medium-12">
           World building here
         </div>
       </div>
-    
   `,
   styleUrls: ['./world.component.scss']
 })

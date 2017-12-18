@@ -1,18 +1,18 @@
 import { MainMenuComponent } from './../layout/main-menu/main-menu.component';
 import { LayoutComponent } from './../layout/layout.component';
 import { Routes } from '@angular/router';
-import { WorldComponent } from './world.component';
 import { ModuleWithProviders } from '@angular/compiler/src/core';
 import { RouterModule } from '@angular/router';
+import { TestComponent } from './test.component';
 
-const worldRoutes: Routes = [
+const testRoutes: Routes = [
     {
-        path: 'World',
+        path: 'Test',
         component: LayoutComponent,
         children: [
-            {path: '', component: WorldComponent}
+            {path: '', component: TestComponent}
         ]
     }
 ];
 
-export const worldRouting: ModuleWithProviders = RouterModule.forChild(worldRoutes);
+export const testRouting: ModuleWithProviders = RouterModule.forChild(testRoutes);

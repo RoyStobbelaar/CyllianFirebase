@@ -3,21 +3,22 @@ import {RouterModule} from '@angular/router';
 import {CharacterModule} from './../characters/character.module';
 import {WorldModule} from './../world/world.module';
 import {NgModule} from '@angular/core';
-import {UiComponentsModule} from "../ui-components/ui-components.module";
+import {UiComponentsModule} from '../ui-components/ui-components.module';
 import {GameModule} from '../game/game.module';
 import {LayoutComponent} from './layout.component';
 import {MainMenuComponent} from './main-menu/main-menu.component';
 import {BrowserModule} from '@angular/platform-browser';
 import {MenuService} from '../services/menu.service';
-import {IndexComponent} from "./index.component";
+import {IndexComponent} from './index.component';
+import { TestModule } from './../test/test.module';
 
 @NgModule({
   imports: [
     UiComponentsModule,
     WorldModule,
     CharacterModule,
+    TestModule,
     BrowserModule,
-    //RouterModule,
     RouterModule.forChild(MenuRoutes),
     GameModule
   ],

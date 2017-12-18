@@ -1,7 +1,7 @@
 import { UiComponentsModule } from './../ui-components/ui-components.module';
 import { worldRouting } from './world.routing';
 import { RouterModule } from '@angular/router';
-import { NgModule } from "@angular/core";
+import { NgModule } from '@angular/core';
 import { WorldComponent } from './world.component';
 import { WorldItemComponent } from './world-item/world-item.component';
 
@@ -18,6 +18,4 @@ import { WorldItemComponent } from './world-item/world-item.component';
     ]
 })
 
-export class WorldModule {
-    
-}
+export class WorldModule {}
